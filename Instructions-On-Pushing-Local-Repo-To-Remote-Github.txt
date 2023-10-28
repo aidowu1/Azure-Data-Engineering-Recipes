@@ -1,0 +1,13 @@
+
+Steps on how to push a local repo to a remote repo in Github
+------------------------------------------------------------
+
+echo "# Azure-Data-Engineering-Recipes" >> README.md
+git init
+git add .
+git commit -m "Commit the repo for the first time.."
+git branch -M main
+git remote add origin https://github.com/aidowu1/Azure-Data-Engineering-Recipes.git
+git push -u origin main
+
+
