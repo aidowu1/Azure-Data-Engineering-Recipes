@@ -1,3 +1,5 @@
+#! /usr/bin/sh
+
 # Define constants
 SUBSCRIPTION = "16f263d1-840b-4414-8415-243b4662d595"
 RESOURCE_GROUP = "rg-airflow"
