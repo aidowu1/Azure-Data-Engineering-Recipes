@@ -1,13 +1,13 @@
 #! /usr/bin/sh
 
 # Define constants
-SUBSCRIPTION = "16f263d1-840b-4414-8415-243b4662d595"
-RESOURCE_GROUP = "rg-airflow"
-LOCATION = "uksouth"
-STORAGE_ACCOUNT_NAME = airflow-dags
-EMAIL = "adeidowu@hotmail.com"
-CONTAINER_NAME = "airflow-dags"
-ROLE = "/subscriptions//resourceGroups/${RESOURCE_GROUP}/providers/Microsoft.Storage/storageAccounts/${STORAGE_ACCOUNT_NAME}/blobServices/default/containers/${CONTAINER_NAME}"
+SUBSCRIPTION="16f263d1-840b-4414-8415-243b4662d595"
+RESOURCE_GROUP="rg-airflow"
+LOCATION="uksouth"
+STORAGE_ACCOUNT_NAME=airflow-dags
+EMAIL="adeidowu@hotmail.com"
+CONTAINER_NAME="airflow-dags"
+ROLE="/subscriptions//resourceGroups/${RESOURCE_GROUP}/providers/Microsoft.Storage/storageAccounts/${STORAGE_ACCOUNT_NAME}/blobServices/default/containers/${CONTAINER_NAME}"
 
 
 # Create Resource group
