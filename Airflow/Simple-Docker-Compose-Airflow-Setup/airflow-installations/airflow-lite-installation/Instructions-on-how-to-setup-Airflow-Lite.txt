@@ -1,0 +1,15 @@
+
+# Instructions on how to run full airflow installation 
+
+# Set the local environment variables
+echo -e "AIRFLOW_UID=$(id -u)" > .env
+echo -e "AIRFLOW_GID=0" >> .env
+
+# Initialize the airflow installation with Docker
+docker-compose up airflow-init
+
+# Now we start the other services (Webserver, scheduler, Postgres, redis etc.) of Airflow
+docker-compose up
+
+# Check the created containers
+docker ps
